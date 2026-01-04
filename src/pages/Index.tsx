@@ -1,12 +1,19 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/greenhouse/HeroSection";
+import PresentationSection from "@/components/greenhouse/PresentationSection";
+import ArchitectureSection from "@/components/greenhouse/ArchitectureSection";
+import DocumentationSection from "@/components/greenhouse/DocumentationSection";
+import FeaturesSection from "@/components/greenhouse/FeaturesSection";
+import Footer from "@/components/greenhouse/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <HeroSection />
+      <PresentationSection />
+      <ArchitectureSection />
+      <FeaturesSection />
+      <DocumentationSection />
+      <Footer />
     </div>
   );
 };
