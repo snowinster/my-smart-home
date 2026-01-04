@@ -14,9 +14,9 @@ const prerequisites = [
   "Capteur de luminosité (LDR ou BH1750)",
   "Module relais 4 canaux",
   "Pompe à eau 5V",
-  "Ventilateur 12V",
+  "Multiplexeur analogique (CD74HC4067)",
   "Câbles jumper et breadboard",
-  "Alimentation adaptée (5V/12V)",
+  "Alimentation adaptée (5V)",
   "Accès WiFi"
 ];
 
