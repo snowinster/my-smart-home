@@ -45,7 +45,7 @@ const PresentationSection = () => {
             À Propos
           </span>
           <h2 className="text-4xl md:text-5xl font-bold font-display mb-6">
-            Qu'est-ce que la <span className="text-gradient">Serre Connectée</span> ?
+            Qu'est-ce que la <span className="text-gradient">SerreCoSystem</span> ?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Un système intelligent qui combine capteurs, microcontrôleur et interface web 
